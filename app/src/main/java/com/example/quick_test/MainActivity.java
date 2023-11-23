@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
                     JSONObject rating = obj.getJSONObject("rating");
                     int sold = rating.getInt("count");
-                    double rate = rating.getDouble("rate");
 
                     Product item = new Product(title, price, desc, imgUrl, sold);
                     productList.add(item);
