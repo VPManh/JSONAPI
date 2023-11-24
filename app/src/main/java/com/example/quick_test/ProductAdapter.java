@@ -55,6 +55,8 @@ public class ProductAdapter extends BaseAdapter {
             Picasso.get().load(product.getImageUrl()).into(imageProduct);
         }
 
+        //nếu như sử dụng listview thuần thì bên java main tạo ra array Adapter rồi add (new Obijet vào)
+
         return view;
     }
 }
